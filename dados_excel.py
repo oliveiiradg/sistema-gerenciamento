@@ -7,7 +7,7 @@ ARQUIVO_EXCEL = os.path.join(PASTA_DADOS, "controle.xlsx")
 def criar_excel_base():
     os.makedirs(PASTA_DADOS, exist_ok=True)
     colunas = [
-        "Mês", "Data", "Técnico", "Cliente", "Serviço Feito",
+        "Data", "Técnico", "Cliente", "Serviço Feito",
         "Observações", "Modelo", "Garantia", "Valor Cobrado", "Lucro"
     ]
     if not os.path.exists(ARQUIVO_EXCEL):

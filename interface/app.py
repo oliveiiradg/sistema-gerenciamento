@@ -31,7 +31,7 @@ def iniciar_app():
     entries, btn_salvar, btn_editar, btn_deletar = criar_formulario(frame_formulario)
 
     # --- Treeview ---
-    cols = ["Mês","Data","Técnico","Cliente","Serviço Feito","Observações","Modelo","Garantia","Valor Cobrado","Lucro"]
+    cols = ["Data","Técnico","Cliente","Serviço Feito","Observações","Modelo","Garantia","Valor Cobrado","Lucro"]
     frame_tree = ctk.CTkFrame(frame_conteudo)
     frame_tree.pack(side="right", fill="both", expand=True, padx=5, pady=5)
 
